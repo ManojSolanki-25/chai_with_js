@@ -49,3 +49,47 @@ console.log(typeof(convertInString));
 //  33     =>   33     =>  String
 // true    => true     =>  String
 // false   => false    =>  String
+
+
+
+// OPERATION
+
+console.log(true)  // true
+console.log(+true); // 1
+console.log(1 + "2"); // 12
+console.log("1" + 2); // 12
+console.log("1" + "2"); // 12
+console.log(1 + 2 + "2"); // 32
+console.log("1" + 2 + 2); // 122
+
+let counter = 100
+console.log(counter); // 100
+counter++
+console.log(counter); // 101
+++counter
+console.log(counter); // 102
+
+
+
+
+
+let x = 3
+let y = x++
+console.log(`X:${x}Y:${y}`);   // x:4 , y = 3
+
+let a = 3
+let b = ++a
+console.log(`a:${a}b:${b}`); // a=4 b= 4
+
+
+let p = 4n;
+let q = ++p;
+console.log(`p:${p} q:${q}`);   // p:5n , q = 5n
+
+
+let s = 4n;
+console.log(s);
+let v = s++;
+console.log(`s:${s.toString()} v:${v.toString()}`);   // s:5n , v = 4n
+console.log(s.toString());
+
