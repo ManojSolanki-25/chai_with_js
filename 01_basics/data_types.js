@@ -51,3 +51,37 @@ console.log(typeof names); // object
 console.log(typeof namesObject); //object
 console.log(typeof myFunction); // function and also called function object
 
+
+
+
+
+// ==============================================
+
+// In JS memory store only two type Stack and Head.
+// All Primitive Type variable take a memory in stack whereever get a varibale inside the stack it give a copuy of this varibale COPY*
+// All non Primitve Types varibale  take a memory in heap whenever get a varible inside the heap it give a reference of this varible REFERENCE*
+
+let myName = "manoj";
+let myFullName = myName;
+myFullName = "manoj solanki"
+
+console.log(myName); // manoj 
+console.log(myFullName); // manoj solanki    
+// because above varible take memory in stack and stack give a copy of.
+
+
+let userOne = {
+    name: "user1",
+    email: "user1@gmail.com"
+}
+
+let userTwo = userOne
+
+userTwo.name = "user2"
+
+console.log(userOne.name); // user2
+console.log(userTwo.name); // user2
+
+// because it is store inside the heap and it give a reference.
+
+
