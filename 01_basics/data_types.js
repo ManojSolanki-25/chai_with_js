@@ -58,7 +58,7 @@ console.log(typeof myFunction); // function and also called function object
 // ==============================================
 
 // In JS memory store only two type Stack and Head.
-// All Primitive Type variable take a memory in stack whereever get a varibale inside the stack it give a copuy of this varibale COPY*
+// All Primitive Type variable take a memory in stack whereever get a varibale inside the stack it give a copy of this varibale COPY*
 // All non Primitve Types varibale  take a memory in heap whenever get a varible inside the heap it give a reference of this varible REFERENCE*
 
 let myName = "manoj";

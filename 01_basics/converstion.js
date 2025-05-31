@@ -20,8 +20,8 @@ console.log(typeof(convertInNumber));
 
 let isLoggedIn = "manoj"
 
-console.log(isLoggedIn)
-console.log(typeof(isLoggedIn));
+// console.log(isLoggedIn)
+// console.log(typeof(isLoggedIn));
 
 let convertInBoolean = Boolean(isLoggedIn)
 console.log(convertInBoolean);
@@ -84,7 +84,7 @@ console.log(`a:${a}b:${b}`); // a=4 b= 4
 
 let p = 4n;
 let q = ++p;
-console.log(`p:${p} q:${q}`);   // p:5n , q = 5n
+console.log(`p:${p} q:${q}`);   // p:5 , q = 5
 
 
 let s = 4n;

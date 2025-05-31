@@ -7,7 +7,7 @@ console.log(classNumber.toLocaleString('en-IN'));  // separted by comma and defa
 console.log(classNumber.toPrecision(1))
 
 
-// in js have powerfull library which is math easy to use and use to undestand it have predefine function which we are use below
+// in js have powerfull library which is math easy to use and undestand it have predefine function which we are use below
 // math library is predefault library in js you have not add in external sources it is internal configure to js.
 
 
