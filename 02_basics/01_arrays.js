@@ -2,7 +2,7 @@
 // array is a object and store collection of data into a single variable it wrraped the data.
 // array is mixer of all datatypes it mean in single array store different types of data types.
 // array is shallow copies it mean it is reference based whenever anyone change in original that time change into duplicate copy
-// shollow copies work on reference based algo just like a non primitive data types.
+// shollow copies work on reference based also just like a non primitive data types.
 
 let myArr = [1, 2, 3, 4, 5, 6] // same as ruby minor changes have so they will discuss here.
 let myArr2 =  myArr;
@@ -33,7 +33,7 @@ let originalArray = [0, 1, 2, 3, 4, 5, 6]
 
 // console.log("A :", originalArray); // [0, 1, 2, 3, 4, 5, 6]
 // 
-// console.log(originalArray.slice(1, 3)); // here 3 index is excluded.  [1, 2]
+// console.log(originalArray.slice(1, 3)); // here 3 index is excluded. and output -> [1, 2]
 // console.log("B: ", originalArray); // [0, 1, 2, 3, 4, 5, 6]
 // 
 // console.log(originalArray.splice(1, 3)); // [1, 2, 3] here 3 index is include and one major changes is splice change originalArray remaining all the value after the splice.
